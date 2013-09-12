@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 165
+Prototype_Build_1
+Prototype_Build_2
+TestCameraRenderingBuild
+TestCameraRenderingBuild_2
+TestCameraRenderingBuild_2_Simulator
+TestCameraRenderingBuild_3
+Library
+Temp
+
+END

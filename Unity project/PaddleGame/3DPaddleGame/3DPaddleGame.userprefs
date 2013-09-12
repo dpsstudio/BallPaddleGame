@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Scripts/RopeController.cs">
+    <Files>
+      <File FileName="Assets/Standard Assets/Scripts/GameConstants.cs" Line="13" Column="42" />
+      <File FileName="Assets/Standard Assets/Scripts/RopeController.cs" Line="40" Column="3" />
+      <File FileName="Assets/Standard Assets/Scripts/PhysicsData.cs" Line="69" Column="59" />
+      <File FileName="Assets/Standard Assets/Scripts/PlayerPrefs.cs" Line="17" Column="1" />
+      <File FileName="Assets/PhysicsDataSettings.cs" Line="131" Column="44" />
+      <File FileName="Assets/GeneralController.cs" Line="11" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
