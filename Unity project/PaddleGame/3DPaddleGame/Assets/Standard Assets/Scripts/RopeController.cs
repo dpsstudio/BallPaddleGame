@@ -19,10 +19,10 @@ public class RopeController : MonoBehaviour {
 			PhysicsDataManager.Instance.physicsData.BallDiameter);
 		
 		ropeBall.rigidbody.mass = PhysicsDataManager.Instance.physicsData.BallWeight;
-		
+		ropeBall.rigidbody.drag = PhysicsDataManager.Instance.physicsData.RoomSize.x;
 	}
 	
-    void Update() {
+    void FixedUpdate() {
 		
 		Vector3 pushForce = Vector3.Scale(Input.gyro.userAcceleration * PhysicsDataManager.Instance.physicsData.BallPushForce * Time.deltaTime,new Vector3(1,1,-1));
 		//Synchronize physics world gravity vector with real world gravity vector
@@ -35,11 +35,13 @@ public class RopeController : MonoBehaviour {
 		//Debug.Log("Applying force: " + pushForce);
 		//GameObject.Find("GyroDirection").transform.rotation.SetLookRotation(gravityVector);//correction * gyroOrientation;
 		Physics.gravity =  gravityVector;
+		
 		ropeCloth.density = GameConstants.MAX_ROPE_LENGTH - PhysicsDataManager.Instance.physicsData.MaxRopeLength;
 		ropeCloth.bendingStiffness = PhysicsDataManager.Instance.physicsData.RopeTension;
+		//ropeBall.rigidbody.drag = 20 * pushForce.sqrMagnitude;
 		
 		//Filtering noise from acceleration and detecting "push"
-		if(Input.gyro.userAcceleration.magnitude>PhysicsDataManager.Instance.physicsData.CameraAcceleration) ropeBall.rigidbody.AddForce(pushForce);
+		if(Input.gyro.userAcceleration.magnitude>PhysicsDataManager.Instance.physicsData.CameraAcceleration) ropeBall.rigidbody.AddForce(pushForce, ForceMode.Impulse);
 		
 		
 	}

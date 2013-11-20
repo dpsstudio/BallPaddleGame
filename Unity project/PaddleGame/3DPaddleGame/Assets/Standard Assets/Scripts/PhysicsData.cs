@@ -59,22 +59,22 @@ public class PhysicsData : Singleton<PhysicsData>
 	
 	public void LoadData()
 	{
-		gravity = PlayerPrefs.GetFloat("Gravity", GameConstants.MAX_GRAVITY);
+		gravity = PlayerPrefs.GetFloat("Gravity", 6.62f);
 		
-		ballDiameter = PlayerPrefs.GetFloat("BallDiameter", GameConstants.MAX_BALL_SIZE * 0.5f);
-		ballWeight = PlayerPrefs.GetFloat("BallWeight", GameConstants.MAX_BALL_WEIGHT * 0.5f);
-		ballPushForce = PlayerPrefs.GetFloat("BallPushForce", GameConstants.MAX_BALL_PUSH_FORCE * 0.5f);
+		ballDiameter = PlayerPrefs.GetFloat("BallDiameter", 0.75f);
+		ballWeight = PlayerPrefs.GetFloat("BallWeight", 19.24f);
+		ballPushForce = PlayerPrefs.GetFloat("BallPushForce", 829.6f);
 		
-		cameraAcceleration = PlayerPrefs.GetFloat("CameraAcceleration", GameConstants.MAX_CAMERA_ACCELERATION);
-		cameraSensivity = PlayerPrefs.GetFloat("CameraSensivity", GameConstants.MIN_CAMERA_SENSITIVITY);
+		cameraAcceleration = PlayerPrefs.GetFloat("CameraAcceleration", 1.0f);
+		cameraSensivity = PlayerPrefs.GetFloat("CameraSensivity", 0.99f);
 		
-		ropeTension = PlayerPrefs.GetFloat("RopeTension", GameConstants.MAX_ROPE_TENSION * 0.5f);
+		ropeTension = PlayerPrefs.GetFloat("RopeTension", 0.18f);
 
-		maxRopeLength = PlayerPrefs.GetFloat("MaxRopeLength", GameConstants.MAX_ROPE_LENGTH * 0.5f);
+		maxRopeLength = PlayerPrefs.GetFloat("MaxRopeLength", 1.0f);
 		
-		roomSize = new Vector3(PlayerPrefs.GetFloat("RoomSizeX", GameConstants.MAX_ROOM_SIZE),
-				PlayerPrefs.GetFloat("RoomSizeY", GameConstants.MAX_ROOM_SIZE),
-				PlayerPrefs.GetFloat("RoomSizeZ", GameConstants.MAX_ROOM_SIZE));
+		roomSize = new Vector3(PlayerPrefs.GetFloat("RoomSizeX", 1.51f),
+				PlayerPrefs.GetFloat("RoomSizeY", 1.51f),
+				PlayerPrefs.GetFloat("RoomSizeZ", 1.51f));
 
 	}
 	

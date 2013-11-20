@@ -44,6 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Standard Assets\Scripts\BouncingPlaneScript.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\CameraTest.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\GameConstants.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />

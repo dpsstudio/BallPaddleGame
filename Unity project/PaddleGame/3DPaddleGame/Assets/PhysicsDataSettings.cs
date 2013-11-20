@@ -34,7 +34,7 @@ public class PhysicsDataSettings : MonoBehaviour {
 			GameConstants.MIN_CAMERA_SENSITIVITY, GameConstants.MAX_CAMERA_SENSITIVITY, "Camera sensitivty");
 		
 		UpdateSliderValue(roomSizeSlider, PhysicsDataManager.Instance.physicsData.RoomSize.x, GameConstants.MIN_ROOM_SIZE,
-			GameConstants.MAX_ROOM_SIZE, "Room size");
+			GameConstants.MAX_ROOM_SIZE, "Ball stability");
 		
 		UpdateSliderValue(ropeTensionSlider, PhysicsDataManager.Instance.physicsData.RopeTension, GameConstants.MIN_ROPE_TENSION,
 			GameConstants.MAX_ROPE_TENSION, "Rope tension");
@@ -135,7 +135,7 @@ public class PhysicsDataSettings : MonoBehaviour {
 	public void OnRoomSizeSliderChange()
 	{
 		UpdateValueBySlider(roomSizeSlider, out tempFloat,GameConstants.MIN_ROOM_SIZE,
-			GameConstants.MAX_ROOM_SIZE,"Room size");
+			GameConstants.MAX_ROOM_SIZE,"Ball stability");
 		PhysicsDataManager.Instance.physicsData.RoomSize = new Vector3(tempFloat,tempFloat,tempFloat);
 		
 	}
