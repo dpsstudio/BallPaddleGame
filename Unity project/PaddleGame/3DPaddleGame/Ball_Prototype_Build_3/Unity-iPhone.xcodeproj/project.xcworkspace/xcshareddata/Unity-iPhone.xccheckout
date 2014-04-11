@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E3E8608E-AB59-4658-8838-06E3051E264F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Unity-iPhone</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CE31F8AD-7A38-4E7D-8BF7-559861663F69</key>
+		<string>https://github.com/dpsstudio/BallPaddleGame.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Unity project/PaddleGame/3DPaddleGame/Ball_Prototype_Build_3/Unity-iPhone.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CE31F8AD-7A38-4E7D-8BF7-559861663F69</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dpsstudio/BallPaddleGame.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CE31F8AD-7A38-4E7D-8BF7-559861663F69</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CE31F8AD-7A38-4E7D-8BF7-559861663F69</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GIT PaddleGame</string>
+		</dict>
+	</array>
+</dict>
+</plist>

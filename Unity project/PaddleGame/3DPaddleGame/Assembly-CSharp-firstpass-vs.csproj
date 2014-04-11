@@ -47,7 +47,9 @@
      <Compile Include="Assets\Standard Assets\Scripts\BouncingPlaneScript.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\CameraTest.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\GameConstants.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\LevelObjectBehaviour.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\PhysicsData.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\PlayerPrefs.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\RopeController.cs" />

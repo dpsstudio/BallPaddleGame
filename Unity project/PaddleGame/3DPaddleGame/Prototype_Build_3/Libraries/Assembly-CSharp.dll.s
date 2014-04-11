@@ -80618,7 +80618,7 @@ mono_image_table:
 
 	.long 5
 	.asciz "Assembly-CSharp"
-	.asciz "B162F3B8-2090-485F-B1CE-A7D3EF0C1DB6"
+	.asciz "0960A5F7-9E25-4EDD-B717-03239B94E9F1"
 	.asciz ""
 	.asciz ""
 	.align 3
@@ -80646,7 +80646,7 @@ mono_image_table:
 
 	.long 1,2,0,5,0
 	.asciz "Assembly-CSharp-firstpass"
-	.asciz "2B2746B8-EA71-4928-BC0F-1A773B03EF5C"
+	.asciz "C37BDADC-FFE5-491D-BC23-72C2BCB1BD57"
 	.asciz ""
 	.asciz ""
 	.align 3
@@ -80671,7 +80671,7 @@ mono_aot_file_info:
 .text
 	.align 2
 mono_assembly_guid:
-	.asciz "B162F3B8-2090-485F-B1CE-A7D3EF0C1DB6"
+	.asciz "0960A5F7-9E25-4EDD-B717-03239B94E9F1"
 .text
 	.align 2
 mono_aot_version:
